@@ -16,3 +16,11 @@ The `PositionalEncoding` class adds positional information to the token embeddin
 ### Input Embedding
 
 The `InputEmbedding` class combines the functionalities of the `TokenEmbedding` and `PositionalEncoding` classes. It first computes the token embeddings using the `TokenEmbedding` class and then adds the positional embeddings using the `PositionalEncoding` class. The final output is a tensor of input embeddings that are ready to be fed into the Transformer model.
+
+
+## 02. Layer Normalization (normalization.py)
+
+### Layer Normalization in PyTorch
+
+Layer normalization, which is a technique used to normalize the activations of a layer in a neural network. Layer normalization can help improve the stability and performance of neural networks, particularly in the context of recurrent neural networks and transformers.
+
